@@ -1,0 +1,11 @@
+<p>
+  {{#link-to "tshirt.create"}}
+    Add New TShirt
+  {{/link-to}}
+</p>
+
+<ul>
+  {{#each model as |tshirt|}}
+    <li>{{tshirt.text}} - {{tshirt.size}} <button type="button" onclick={{action "remove" tshirt}}>Delete</button></li>
+  {{/each}}
+</ul>

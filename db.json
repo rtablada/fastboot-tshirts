@@ -1,0 +1,29 @@
+{
+  "tshirts": [
+    {
+      "id": 1,
+      "size": "L",
+      "text": "HTML and CSS ROCK"
+    },
+    {
+      "size": "M",
+      "text": "Good Stuff",
+      "id": 2
+    },
+    {
+      "size": "XL ",
+      "text": "Nodevember",
+      "id": 4
+    },
+    {
+      "size": "XXL",
+      "text": "Nodevember",
+      "id": 5
+    },
+    {
+      "size": "XXL",
+      "text": "Something",
+      "id": 6
+    }
+  ]
+}

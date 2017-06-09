@@ -1,0 +1,23 @@
+<p>
+  {{#link-to "tshirt"}}
+    Back to Shop
+  {{/link-to}}
+</p>
+
+<form onsubmit={{action "saveForm"}}>
+  <p>
+    <label for="size">Size</label>
+    {{input id="size" value=tshirtChangeset.size}}
+  </p>
+
+  <p>
+    <label for="text">Text On Shirt</label>
+    {{input id="text" value=tshirtChangeset.text}}
+  </p>
+
+  <p>
+    {{#link-to "tshirt"}}Back{{/link-to}}
+
+    <button type="submit">Save</button>
+  </p>
+</form>
